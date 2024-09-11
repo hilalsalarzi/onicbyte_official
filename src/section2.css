@@ -1,0 +1,121 @@
+/* section2.css */
+
+.section2-container {
+     /* Adjust the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    padding: 20px;
+    background-color: #333333; /* Fallback color in case the image doesn't load */
+  }
+  
+  .section2-content {
+    width: 50%;
+    text-align: left;
+    color: #fff;
+    background: rgba(51, 51, 51, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .section2-heading {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .section2-description {
+    font-size: 19px;
+    margin-bottom: 20px;
+    max-width: 550px;
+    line-height: 1.8;
+
+  }
+  
+  .profile-card {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100px;
+    margin-top: 56px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-role {
+    font-size: 20px; /* Adjust font size if needed */
+    color: #bbb; /* Text color */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow if the text is too long */
+    text-overflow: ellipsis; /* Add ellipsis (...) if the text overflows */
+  }
+  
+  
+  .profile-name {
+    font-size: 20px;
+    
+  }
+  
+  .profile-role {
+    font-size: 15px;
+    color: #bbb;
+  }
+  
+  .section2-btn {
+    background-color: #22346c;
+    color: #fff;
+    padding: 15px 40px; /* Adjust padding to fit the text */
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 21px; /* Increase font size for better readability */
+    white-space: nowrap; /* Prevent text from wrapping */
+    display: inline-block; /* Ensure button size fits text */
+    margin-top: 15px;
+    margin-left: 80px;
+    
+  }
+  
+  
+  .section2-btn:hover {
+    background-color: #e67e22;
+  }
+  
+  .section2-cards {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+    margin-top: 71px;
+  }
+  
+  .service-card {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    width: calc(40% - 10px); /* Adjust width for 2 cards per row */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  
+  .service-icon {
+
+    height: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .service-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
